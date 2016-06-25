@@ -48,7 +48,7 @@ namespace ReminderParser
 						}
 						result = result.TrimEnd();
 
-						reminder.Title = result;
+						reminder.Title = result.First().ToString().ToUpper() + new string(result.Skip(1).ToArray());
 					}
 					else if (p.Keyword.Type == PhraseType.Time)
 					{
