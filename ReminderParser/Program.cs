@@ -25,7 +25,7 @@ namespace ReminderParser
 
 			Reminder reminder = Process(words);
 			Console.WriteLine(reminder.Title);
-			Console.WriteLine(reminder.DueDate);
+			Console.WriteLine(reminder.DueDate.ToString("g"));
 		}
 
 		static Reminder Process(Queue<string> words)
