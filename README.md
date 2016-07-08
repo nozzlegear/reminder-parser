@@ -1,6 +1,8 @@
 # Reminder Parser
 Parses a sentence into a title and a date in order to pass along to an AppleScript to create a reminder.
 
+[![Build Status](https://travis-ci.org/gman4455/reminder-parser.svg?branch=master)](https://travis-ci.org/gman4455/reminder-parser)
+
 ## How to use
 The console takes input, and you type in a sentence like:
 
